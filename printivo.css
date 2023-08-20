@@ -1,0 +1,622 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 9% 9% 25% 20% 5% 10%;
+    justify-content: space-evenly;
+    font-family: "Open Sans";
+    font-size: 12.9px;
+    font-weight: 600;
+    
+}
+
+.calc{
+    color: #506683;
+}
+
+.calc{
+    text-decoration: none;
+}
+
+.numba{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1DA1F2;
+}
+
+.need-help{
+    display: flex;
+}
+
+.header1{
+    background-color: #F7F6F4;
+}
+
+.nigeria{
+    border-radius: 20px;
+    border: 1px solid #CBCAC8;
+    padding: 7px 15px 7px 15px;
+    font-family: "Open Sans";
+    font-size: 12.9px;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.logo{
+    margin-top: -8px;   
+}
+
+.header2{
+    background-color: #ECE8D9;
+}
+
+.header2{
+    display: grid;
+    grid-template-columns: 5% 32% 9% 12% 10% 12% 5% 10% 5%;
+    justify-content: space-evenly;
+    font-family: "Open Sans";
+    font-size: 14.5px;
+    font-weight: 610;
+    padding-top: 30px;
+}
+
+.newc a{
+    color: #D77F81;
+}
+
+.nav-2{
+    color: #506683;
+    text-decoration: none;
+}
+
+.brand-logo{
+    height: 145px;
+    width: 145px;
+    padding-bottom: 110px;
+}
+
+.prints{
+    font-family: "DM Serif Display";
+    font-size: 67.2px;
+    color: #384A62;
+    padding-right: 310px;
+}
+
+
+.body-page{
+    background-color: #ECE8D9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+
+.cards{
+    height: 340px;
+    width: 440px;
+
+}
+
+.image-style:hover{
+    transform: scale(0.9) rotate(1deg);
+}
+
+.ship{
+    font-size: 24px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #506683;
+}
+
+.print-what{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.placeholder1{
+    padding-left: 430px;
+    padding-top: 55px;
+    text-align: right;
+}
+
+/* input [type='text']::placeholder1
+{
+    text-align: center;
+} */
+
+.carousel-inner{
+    background-color: #F3B1CD;
+}
+
+
+.flyer{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.flyer a{
+    font-weight: 400;
+    color: black;
+}
+
+.stickers{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.stickers a{
+    font-weight: 400;
+    color: black;
+}
+
+.products{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+}
+
+.all-products{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #D77F81;
+    padding-left: 820px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.the-products{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 22%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.image-style{
+    height: 230px;
+}
+
+.card-title{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-family: "Open Sans";
+    font-size: 12.8px;
+    font-weight: 700;
+    color: #708095;
+    padding-top: 10px;
+}
+
+.price{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hundred{
+    font-family: "Open Sans";
+    font-size: 14.4px;
+    font-weight: 700;
+    color: #708095;
+}
+
+.button-color{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn{
+    background-color:  #D77F81;
+    color: white;
+}
+
+.my-products{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 22%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.their-products{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 22%;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.products1{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+}
+
+.all-products1{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #D77F81;
+    padding-left: 770px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.products2{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+}
+
+.our-services{
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #506683;
+}
+
+.partners{
+    padding-left: 40px;
+    height: 120px;
+}
+
+.testimonials{
+    background-color: #EDF6FD;
+
+}
+
+.boxed{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}
+
+.testimonial{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.twitter-logo{
+    border: 1px solid #ECE8D9;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    padding-right: 8px;
+    padding-left: 12px;
+}
+
+.logo-tweet img{
+    margin-right: 100px;
+}
+
+.testi-1{
+    padding-left: 50px;
+    margin-top: -28px;
+}
+
+.t-1{
+    font-family: "Open Sans";
+    padding-left: 13px;
+    padding-top: 15px;
+    margin-left: 40px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.t-11{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.t-11 a{
+    text-decoration: none;
+}
+
+.t-111{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding-left: 20px;
+}
+
+.t-111 a{
+    text-decoration: none;
+}
+
+
+
+.testi-2{
+    padding-left: 50px;
+    margin-top: -28px;
+}
+
+.t-2{
+    font-family: "Open Sans";
+    padding-left: 13px;
+    padding-top: 15px;
+    margin-left: 40px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.t-22{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.t-22 a{
+    text-decoration: none;
+}
+
+.t-222{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding-left: 20px;
+}
+
+.t-222 a{
+    text-decoration: none;
+}
+
+
+.testi-3{
+    padding-left: 50px;
+    margin-top: -28px;
+}
+
+.t-3{
+    font-family: "Open Sans";
+    padding-left: 13px;
+    padding-top: 15px;
+    margin-left: 40px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.t-33{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.t-33 a{
+    text-decoration: none;
+}
+
+.t-333{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding-left: 20px;
+}
+
+.t-333 a{
+    text-decoration: none;
+}
+
+.count{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.fast{
+    font-size: 15.5px;
+    font-weight: 600;
+    padding-left: 120px;
+    margin-bottom: 8px;
+}
+
+.order{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 120px;
+    color: #677F9E;
+}
+
+.grid-time{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}
+
+.time-1{
+    padding-left: 40px;
+}
+
+.time-11{
+    margin-top: -70px;
+}
+
+.time-2{
+    padding-left: 40px;
+}
+
+.time-22{
+    margin-top: -70px;
+}
+
+.time-3{
+    padding-left: 40px;
+}
+
+.time-33{
+    margin-top: -70px;
+    padding-bottom: 70px;
+}
+
+.workk{
+    background-color: #F7F6F4;
+}
+
+.amazing-work{
+    font-family: "DM Serif Display";
+    font-size: 30px;
+    color: #384A62;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+.partnership{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-bottom: 60px;
+}
+
+.tech-crunch{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.article p{
+    color: #384A62;
+    padding-top: 10px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.article{
+    color: #384A62;
+}
+
+.forbes{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.tech-point{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.tech-cabal{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.CNN{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.end{
+    background-color: #384A62;
+
+}
+
+.printi{
+    color: #ECE8D9;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.about-1{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-bottom: 6px;
+}
+
+.ender{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    padding-bottom: 90px;
+}
+
+.payment{
+    height: 18px;
+    width: 210px;
+    padding-left: 47px;
+}
+
+.dhl{
+    height: 19px;
+    width: 210px;
+    padding-left: 47px;
+}
+
+.face{
+    padding-left: 55px;
+}
+
+.face-2{
+    padding-left: 20px;
+}
+
+.face-3{
+    padding-left: 15px;
+}
+
+.face-4{
+    padding-left: 20px;
+}
+
+.printi-1{
+    color: #ECE8D9;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.printi-2{
+    color: #ECE8D9;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #CBCAC8;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
